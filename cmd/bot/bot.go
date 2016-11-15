@@ -197,7 +197,7 @@ var ALLAH *SoundCollection = &SoundCollection{
 		"!allah",
 	},
 	Sounds: []*Sound{
-		createSound("allah", 50, 250),
+		createSound("AllahuAkhbar", 50, 250),
 	},
 }
 
