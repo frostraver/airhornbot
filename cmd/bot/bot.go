@@ -191,6 +191,16 @@ var WOW *SoundCollection = &SoundCollection{
 	},
 }
 
+var ALLAH *SoundCollection = &SoundCollection{
+	Prefix: "allah",
+	Commands: []string{
+		"!allah",
+	},
+	Sounds: []*Sound{
+		createSound("allah", 50, 250),
+	},
+}
+
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
@@ -199,6 +209,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	COW,
 	BIRTHDAY,
 	WOW,
+	ALLAH,
 }
 
 // Create a Sound struct
